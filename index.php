@@ -10,6 +10,7 @@
   </head>
   <body>
     <!-- Hero Section -->
+
     <header>
       <nav>
         <a href="" class="logo"><img src="/Assets/Logo.svg" alt="Logo"></a>
@@ -34,7 +35,7 @@
               numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
             </div>
             <div class="buttons">
-              <button><a href="/Pages/form.php">Order NOW!</a></button>
+              <button><a href="/main/form.php">Order NOW!</a></button>
             </div>
           </div>
         </div>
@@ -48,7 +49,7 @@
               numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
             </div>
             <div class="buttons">
-              <button><a href="/Pages/form.php">Order NOW!</a></button>
+              <button><a href="/main/form.php">Order NOW!</a></button>
             </div>
           </div>
         </div>
@@ -62,7 +63,7 @@
               numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
             </div>
             <div class="buttons">
-              <button><a href="/Pages/form.php">Order NOW!</a></button>
+              <button><a href="/main/form.php">Order NOW!</a></button>
             </div>
           </div>
         </div>
@@ -76,7 +77,7 @@
               numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
             </div>
             <div class="buttons">
-              <button><a href="/Pages/form.php">Order NOW!</a></button>
+              <button><a href="/main/form.php">Order NOW!</a></button>
             </div>
           </div>
         </div>
