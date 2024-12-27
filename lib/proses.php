@@ -25,7 +25,7 @@ if (isset($_POST['nama_pemesanan'])) {
 	$query = mysqli_query($db, $sql);
 	if ($query) { //echo 1; 
 		// $id = mysqli_insert_id($db);
-		header('Location: ../index.php');
+		header('Location: ../main/daftarPesan.php');
 		//echo $id_pemesanan;
 	} else {
 		echo 0;

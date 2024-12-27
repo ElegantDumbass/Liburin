@@ -87,7 +87,7 @@ if (mysqli_num_rows($query) == 0) {
                <td><?= $detail['jumlah_peserta'] ?> orang</td>
                <td><?= $detail['paket_wisata'] ?></td>
                <td>Rp. <?= number_format($detail['total_tagihan'], 0, ',', '.') ?></td>
-               <td align="center"><a class="btn btn-success mb-2" href="index.php?aksi=detail&id=<?= $detail['id'] ?>"><i class="bi bi-receipt me-1"></i> Invoice</a>
+               <td align="center"><a class="btn btn-success mb-2" href="invoice.php?id=<?= $detail['id'] ?>"><i class="bi bi-receipt me-1"></i> Invoice</a>
                   <a class="btn btn-danger" href="hapus.php?id=<?= $detail['id'] ?>"><i class="bi bi-trash-fill me-1"></i> Hapus</a>
                </td>
             </tr>

@@ -33,11 +33,14 @@ Memperbaiki koneksi ke database untuk menyimpan data dalam pemesanan
 
 - ~Daftar pesanan~
 - ~Menambahkan Aksi Hapus & Edit~
-- Edit.sql?
 
 #### Commit 4
 
 Menambahkan Daftar Pemesanan dan juga fungsi untuk menghapus pesanan yang sudah dibuat
+
+#### Commit 5
+
+Menambahkan Invoice
 
 # 4. Males 4:
 
