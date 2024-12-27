@@ -6,9 +6,9 @@ $database_name = 'Liburin';
 
 $db = mysqli_connect($hostname, $username, $password, $database_name);
 
-if ($db->connect_error) {
-   echo 'eror';
-   die('eror');
-} else{
-   echo 'Koneksi Berhasil';
-}
+// if ($db->connect_error) {
+//    echo 'eror';
+//    die('eror');
+// } else{
+//    echo 'Koneksi Berhasil';
+// }
