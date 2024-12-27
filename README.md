@@ -5,8 +5,8 @@
 $ 1. Males 1:
 
 - ~Mengubah Navbar?~ [DONE]
-- Sambungin Database
-- Jelaskan Aksi & Lib
+- ~Sambungin Database~
+- ~Jelaskan Aksi & Lib~
 
 #### Commit 1
 
@@ -16,16 +16,28 @@ Mengganti cara routing dari aksi karena sulit untuk di integrasi ke dalam codeba
 - Beranda [Deleted]
 - Mengubah Navbar Form pemesanan menjadi menu.php
 
+#### Commit 2
+
+Menambahkan koneksi ke Database
+
+#### Comit 3
+
+Memperbaiki koneksi ke database untuk menyimpan data dalam pemesanan
+
 # 2. Males 2:
 
-- Membuat Pages yang tidak ada
-- invoice
+- ~Membuat Pages yang tidak ada~
+- ~invoice~
 
 # 3. Males 3:
 
-- Daftar pesanan
-- Menambahkan Aksi Hapus & Edit
+- ~Daftar pesanan~
+- ~Menambahkan Aksi Hapus & Edit~
 - Edit.sql?
+
+#### Commit 4
+
+Menambahkan Daftar Pemesanan dan juga fungsi untuk menghapus pesanan yang sudah dibuat
 
 # 4. Males 4:
 

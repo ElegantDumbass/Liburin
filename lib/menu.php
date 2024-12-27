@@ -21,6 +21,7 @@
         <a class="me-3 py-2 text-dark text-decoration-none" href="/index.php">Beranda</a>
         <a class="me-3 py-2 text-dark text-decoration-none" href="/main/galeri.php">Galeri</a>
         <a class="me-3 py-2 text-dark text-decoration-none" href="/main/pesan.php">Pemesanan</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" href="/main/daftarPesan.php">Daftar Pemesanan</a>
         <a class="me-3 py-2 text-dark text-decoration-none" href="/main/login.php">Login</a>
         <a class="py-2 text-dark text-decoration-none" href="/main/kontak.php">Hubungi Kami</a>
       </nav>
