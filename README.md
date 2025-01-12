@@ -39,9 +39,11 @@ Memperbaiki koneksi ke database untuk menyimpan data dalam pemesanan
 Menambahkan Daftar Pemesanan dan juga fungsi untuk menghapus pesanan yang sudah dibuat
 
 #### Commit 5
-
 Menambahkan Invoice
 
 # 4. Males 4:
 
 - Link github, Beranda, Pemesanan, Daftar Pemesanan, Detail masukan ke PDF dan upload untuk UAS
+
+#### Commit 6
+Menambahkan Page yang hilang.
