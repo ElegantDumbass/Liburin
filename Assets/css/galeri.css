@@ -1,0 +1,172 @@
+/*
+
+All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 77). 
+        
+The 'supports' rule will only run if your browser supports CSS grid.
+
+Flexbox is used as a fallback so that browsers which don't support grid will still recieve an identical layout.
+
+*/
+
+@font-face {
+  font-family: "Soria";
+  src: url("Assets/fonts/soria-font.ttf") format("tff"), url("Assets/fonts/soria-font.ttf") format("tff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sono";
+  src: url("Assets/fonts/Sono-Regular.woff2") format("woff2"), url("Assets/fonts/Sono-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rubik";
+  src: url("Assets/fonts/Rubik-Bold.ttf") format("tff"), url("Assets/fonts/Rubik-Bold.ttf") format("tff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  --Backgroundr: #e9eed9;
+  --Highlight: #cbd2a4;
+  --Accent: #54473f;
+  --Primary: #8cae19;
+  --heading-font: "Soria", serif;
+  --body-font: "sono", sans-serif;
+  --rubik-font: "rubik", sans-serif;
+
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+  --width-container: 1200px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+
+.heading {
+  font-family: --heading-font;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  padding: 3.5rem 0;
+  color: #1a1a1a;
+}
+
+.heading span {
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  /* Compensate for excess margin on outer gallery flex items */
+  margin: -1rem -1rem;
+}
+
+.gallery-item {
+  /* Minimum width of 24rem and grow to fit available space */
+  flex: 1 0 24rem;
+  /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-gap: 2rem;
+  }
+
+  .gallery,
+  .gallery-item {
+    margin: 0;
+  }
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  padding-right: 20px;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.header-title span {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}

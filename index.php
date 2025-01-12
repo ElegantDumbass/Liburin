@@ -10,14 +10,13 @@
   </head>
   <body>
     <!-- Hero Section -->
-
     <header>
       <nav>
         <a href="" class="logo"><img src="/Assets/Logo.svg" alt="Logo"></a>
         <a href="/main/galeri.php">Galeri</a>
         <a href="/main/form.php">Pemesanan</a>
         <a href="/main/daftarPesan.php">Daftar Pemesanan</a>
-        <a href="/main/kontak.php">Hubungi Kami</a>
+        <a href="/main/">Hubungi Kami</a>
       </nav>
     </header>
 
